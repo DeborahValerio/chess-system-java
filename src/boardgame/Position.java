@@ -4,6 +4,8 @@ public class Position {
 	private int row;
 	private int column;
 	
+	// representa uma posição no tabuleiro
+	
 	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;

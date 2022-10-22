@@ -38,4 +38,14 @@ public class Board {
 		return pieces[position.getRow()][position.getColumn()];
 	}
 	
+	// Metodo responsavel por colocar a peça piece na posição position do tabuleiro
+	// O metodo vai na matriz de peças do tabuleiro, na linha position.getRow e coluna position.getColumn, 
+	// e atribuir para essa peça a peça que veio como argumento
+	// Essa peça agora não está mais na posição nula. Então a peça piece recebe a posição position que foi
+	// informada como argumento do método
+	public void placePiece(Piece piece, Position position) {
+		pieces[position.getRow()][position.getColumn()] = piece;
+		piece.position = position;
+	}
+	
 }

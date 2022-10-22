@@ -16,7 +16,7 @@ public class UI {
 		System.out.println("  a b c d e f g h");
 	}
 	
-	//metodo para imprimir uma unica peça
+	//metodo auxiliar para imprimir uma unica peça
 	public static void printPiece(ChessPiece piece) {
 		if (piece == null) {
 			System.out.print("-");

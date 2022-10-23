@@ -30,7 +30,7 @@ public class ChessMatch {
 	}
 
 	// Esse método é responsavél por iniciar a partida de xadrez colocando as peças no tabuleiro
-	// Esse método será chamado na instanciação da partida, pois está no construtor da classe ChessMatch
+	// Esse método será chamado na instanciação da partida, pois está no construtor aqui da classe ChessMatch
 	private void initialSetup() {
 		board.placePiece(new Rook(board, Color.WHITE), new Position(2, 1));
 		board.placePiece(new King(board, Color.BLACK), new Position(0, 4));

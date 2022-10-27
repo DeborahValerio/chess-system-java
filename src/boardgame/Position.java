@@ -27,6 +27,12 @@ public class Position {
 		this.column = column;
 	}
 	
+	//metodo para atualizar a linha e a coluna
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
+	
 	@Override
 	public String toString() {
 		return row + ", " + column;
